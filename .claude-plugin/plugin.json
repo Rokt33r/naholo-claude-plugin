@@ -1,0 +1,6 @@
+{
+  "name": "naholo-claude-plugin",
+  "version": "0.1.0",
+  "description": "Naholo core skills",
+  "skills": "./skills/"
+}
