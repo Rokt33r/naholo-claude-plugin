@@ -1,0 +1,14 @@
+{
+  "name": "naholo",
+  "owner": {
+    "name": "naholo"
+  },
+  "plugins": [
+    {
+      "name": "naholo-claude-plugin",
+      "source": "./",
+      "description": "Naholo core skills",
+      "version": "0.1.2"
+    }
+  ]
+}
