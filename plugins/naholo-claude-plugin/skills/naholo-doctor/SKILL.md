@@ -4,7 +4,7 @@ description: Diagnose the naholo CLI setup — checks the binary, login, project
 ---
 
 ```
-naholoClaudePluginVersion: 0.1.2
+naholoClaudePluginVersion: 0.2.0
 minNaholoCliVersion: 0.12.0
 ```
 
