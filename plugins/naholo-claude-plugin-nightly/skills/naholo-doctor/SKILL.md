@@ -4,8 +4,8 @@ description: Diagnose the naholo CLI setup — checks the binary, login, project
 ---
 
 ```
-naholoClaudePluginVersion: 0.2.0-nightly.0
-minNaholoCliVersion: 0.13.0
+naholoClaudePluginVersion: 0.3.0-nightly.0
+minNaholoCliVersion: 0.14.0
 ```
 
 # Naholo Doctor — Diagnose and fix your setup
@@ -42,7 +42,7 @@ legacySkillStubs: # ["scope:name", …]; absent when none found
 
 Read `naholoClaudePluginVersion` and `minNaholoCliVersion` from the code fence at the top of this skill (just below the frontmatter), and compare against the payload:
 
-- `naholoClaudePluginVersion` < payload `minPluginVersion` → the plugin is older than this CLI requires → tell the user to update the plugin with `claude plugin update naholo-claude-plugin@naholo` (add `--scope project` if it errors), then restart Claude Code to apply, then re-run `/naholo-doctor`. Use `update`, not `install` — `install` won't update a plugin that's already installed.
+- `naholoClaudePluginVersion` < payload `minPluginVersion` → the plugin is older than this CLI requires → tell the user to repair it with `naholo claude-plugin install` (idempotent install-or-update), then restart Claude Code to apply, then re-run `/naholo-doctor`. That command only exists on a recent-enough CLI, so if payload `version` < `minNaholoCliVersion`, have the user run `npm install -g @naholo/cli@latest` first, then re-run `/naholo-doctor`.
 - payload `version` < `minNaholoCliVersion` → the CLI is older than this plugin requires → tell the user `npm install -g @naholo/cli@latest`, then re-run `/naholo-doctor`.
 
 If both floors hold, the plugin and CLI are compatible.
