@@ -4,8 +4,8 @@ description: Diagnose the naholo CLI setup — checks the binary, login, project
 ---
 
 ```
-naholoClaudePluginVersion: 0.3.0-nightly.0
-minNaholoCliVersion: 0.14.0
+naholoClaudePluginVersion: 0.4.0-nightly.0
+minNaholoCliVersion: 0.14.1
 ```
 
 # Naholo Doctor — Diagnose and fix your setup

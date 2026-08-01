@@ -1,7 +1,7 @@
 ---
 name: resplash
 description: Revision-splash the last finished task from an infilled Naholo operation — re-implement code, overwrite the AAR in place.
-argument-hint: '["freeform"]'
+argument-hint: '[what to edit]'
 ---
 
 Run `naholo agent skills resplash --nightly` and follow stdout.
