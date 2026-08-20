@@ -1,6 +1,6 @@
 ---
 name: recon
-description: Talk-it-out side branch: answer questions, or record a change request as a pinned RECON note (Intent / Scheme / FRAGMENTARY ORDER) that drafts the next /warno / /opord edit.
+description: Talk-it-out side branch: answer questions, or record a change request — plan revisions or OP splits — as a pinned RECON note (Intent / Scheme / FRAGMENTARY ORDER) that /recon-out applies.
 argument-hint: '["first question"]'
 ---
 
