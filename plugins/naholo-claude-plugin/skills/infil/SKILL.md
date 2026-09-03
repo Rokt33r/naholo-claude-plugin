@@ -1,7 +1,7 @@
 ---
 name: infil
-description: Infil a Naholo operation — fetch tasks, notes, and logs locally for offline-first workflow.
-argument-hint: '[{operationNumber}]'
+description: 'Infil a Naholo issue: fetch tasks, notes, and logs locally for offline-first workflow.'
+argument-hint: '[{issueNumber}]'
 ---
 
 Run `naholo agent skills infil` and follow stdout.

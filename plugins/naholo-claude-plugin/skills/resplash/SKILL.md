@@ -1,6 +1,6 @@
 ---
 name: resplash
-description: Revision-splash the last finished task from an infilled Naholo operation — re-implement code, overwrite the AAR in place.
+description: 'Revision-splash the last finished task from an infilled Naholo issue: re-implement code, overwrite the Splash Report in place.'
 argument-hint: '[what to edit]'
 ---
 
