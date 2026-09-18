@@ -1,6 +1,6 @@
 ---
 name: ask
-description: Talk-it-out side branch — answer a question about the infilled issue or the codebase. Use when you want an explanation, not a change.
+description: 'Talk-it-out side branch: answer a question about the infilled issue or the codebase. Use when you want an explanation, not a change.'
 argument-hint: '["first question"]'
 ---
 

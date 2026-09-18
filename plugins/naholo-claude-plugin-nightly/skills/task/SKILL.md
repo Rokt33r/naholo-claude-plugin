@@ -1,6 +1,6 @@
 ---
 name: task
-description: Cut an adr'd Naholo issue's ADR into single-commit-sized tasks — write TASKS in PLAN.md, mirror to TASKS.md.
+description: Cut an adr'd Naholo issue's ADR into single-commit-sized tasks. Write TASKS in PLAN.md, mirror to TASKS.md.
 argument-hint: '["freeform plan-revision instructions"]'
 ---
 
