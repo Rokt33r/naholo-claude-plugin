@@ -1,6 +1,6 @@
 ---
 name: infil
-description: 'Infil a Naholo issue: fetch tasks, notes, and logs locally for offline-first workflow.'
+description: 'Infil a Naholo issue: fetch tasks, notes, and logs locally for offline-first workflow, at the root or inside the infilled epic.'
 argument-hint: '[{issueNumber}]'
 ---
 

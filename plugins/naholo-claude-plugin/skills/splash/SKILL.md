@@ -1,6 +1,6 @@
 ---
 name: splash
-description: 'Ship one task from an infilled Naholo issue: implement code, write the Splash Report, check the TASKS box.'
+description: 'Ship one task from an infilled Naholo issue: commit the previous task, implement code, write the Splash Report, check the TASKS box.'
 argument-hint: '["freeform"]'
 ---
 
