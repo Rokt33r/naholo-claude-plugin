@@ -1,6 +1,6 @@
 ---
 name: adr
-description: 'Plan an infilled Naholo issue: research the codebase, fill ADR (Summary, optional Guideline, Constraints, Ref) in PLAN.md. TASKS is owned by `/task`.'
+description: 'Plan the active nightly issue: research the codebase and write the ADR text, refs, and architectural decision rows on the server. Tasks are owned by `/task`.'
 argument-hint: '["freeform ADR instructions"]'
 ---
 

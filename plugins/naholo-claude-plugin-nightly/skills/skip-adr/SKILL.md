@@ -1,6 +1,6 @@
 ---
 name: skip-adr
-description: 'Fresh-issue shortcut: write a stub ADR (real Summary + Ref, Constraints `_N/A_`) and chain `/task` to cut tasks. Use when architecture review is overkill.'
+description: 'Fresh-issue shortcut on nightly: write a stub ADR (real Summary + refs, no architectural decisions) and chain `/task` to cut tasks. Use when architecture review is overkill.'
 argument-hint: '["freeform task-cutting hints"]'
 ---
 

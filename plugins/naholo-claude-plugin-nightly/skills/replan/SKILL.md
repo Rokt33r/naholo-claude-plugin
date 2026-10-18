@@ -1,7 +1,7 @@
 ---
 name: replan
-description: Apply a combined ADR + TASKS revision in one pass by chaining /adr then /task with the same prompt. Use when a change touches both the ADR and the task list.
-argument-hint: '["revision prompt"]'
+description: 'Apply a combined ADR + tasks revision on nightly in one pass by chaining /adr then /task with the same prompt.'
+argument-hint: '["freeform revision prompt"]'
 ---
 
 Run `naholo agent skills replan --nightly` and follow stdout.

@@ -1,7 +1,7 @@
 ---
 name: exfil
-description: 'Sync local issue changes back to Naholo and clean up: commits the last shipped task, pushes tasks/notes, drains transcripts, posts a log, optionally closes, and removes the working set (returning to the epic phase inside an epic).'
-argument-hint: '["freeform"]'
+description: 'Finish the active nightly issue: checks the working tree is clean, uploads its bound session transcripts, optionally pushes and opens a pull request, posts a log, optionally closes, and clears the active issue.'
+argument-hint: '[--pr-account {id} --pr-repo {owner/name} --pr-base {branch} [--pr-head {branch}]] ["freeform"]'
 ---
 
 Run `naholo agent skills exfil --nightly` and follow stdout.

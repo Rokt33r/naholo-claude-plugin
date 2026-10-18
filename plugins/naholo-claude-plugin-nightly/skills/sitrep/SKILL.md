@@ -1,6 +1,6 @@
 ---
 name: sitrep
-description: Sync local progress to Naholo and post a one-sentence status log; does not close or clean up.
+description: Not available on the nightly channel; nightly skills write every change to the server as they make it.
 argument-hint: '["freeform"]'
 ---
 

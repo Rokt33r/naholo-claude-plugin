@@ -1,6 +1,6 @@
 ---
 name: commit
-description: 'Commit the reviewed splash without shipping the next task: commit the staged changes under the task title, push tasks + notes, and enter the task phase.'
+description: 'Commit the reviewed nightly splash without shipping the next task: commit the staged changes under the task name and enter the task phase.'
 argument-hint: '["freeform"]'
 ---
 

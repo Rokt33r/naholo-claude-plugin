@@ -1,7 +1,7 @@
 ---
 name: infil
-description: 'Infil a Naholo issue: fetch tasks, notes, and logs locally for offline-first workflow, at the root or inside the infilled epic.'
-argument-hint: '[{issueNumber}]'
+description: 'Infil a Naholo issue on the nightly channel: make it the active issue and seed its intro text on the server when empty.'
+argument-hint: '[{issueNumber} [--branch {name}] [--base {name}]]'
 ---
 
 Run `naholo agent skills infil --nightly` and follow stdout.

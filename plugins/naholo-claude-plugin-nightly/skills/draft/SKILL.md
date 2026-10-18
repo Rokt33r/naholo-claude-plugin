@@ -1,6 +1,6 @@
 ---
 name: draft
-description: Record a change request (plan revisions or issue splits) as a pinned DRAFT note (Intent / Scheme / Changes) that /apply-draft applies.
+description: Record a change request on nightly (plan revisions or issue splits) as a DRAFT note on the server (Intent / Scheme / Changes) that /apply-draft applies.
 argument-hint: '["change request"]'
 ---
 

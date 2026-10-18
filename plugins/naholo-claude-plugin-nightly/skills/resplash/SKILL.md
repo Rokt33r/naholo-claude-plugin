@@ -1,6 +1,6 @@
 ---
 name: resplash
-description: 'Revision-splash the last finished task from an infilled Naholo issue: re-implement code, overwrite the Splash Report in place.'
+description: 'Revise the last shipped task of the active nightly issue: re-implement it and replace its Splash Report on the server.'
 argument-hint: '[what to edit]'
 ---
 
